@@ -254,7 +254,7 @@ export default function Dashboard() {
                 className="overflow-hidden rounded-full"
               >
                 <Image
-                  src="/placeholder-user.jpg"
+                  src="https://github.com/shadcn.png"
                   width={36}
                   height={36}
                   alt="Avatar"
