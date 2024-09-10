@@ -1,6 +1,7 @@
 import * as React from "react"
 import Image from "next/image"
 import Link from "next/link"
+import Morty from "../../public/morty.jpeg"
 import {
   ChevronLeft,
   ChevronRight,
@@ -254,7 +255,7 @@ export default function Dashboard() {
                 className="overflow-hidden rounded-full"
               >
                 <Image
-                  src="https://github.com/shadcn.png"
+                  src={Morty}
                   width={36}
                   height={36}
                   alt="Avatar"
